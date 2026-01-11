@@ -1,0 +1,165 @@
+/* Custom styles for Kota Baru Indramayu */
+.language-toggle {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.language-btn {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    background: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.language-btn.active {
+    background: #da302f;
+    color: white;
+    border-color: #da302f;
+}
+.language-select {
+    padding: 8px 32px 8px 16px;
+    border: 1px solid rgba(255,255,255,0.5);
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+} 
+.language-select:focus {
+    outline: none;
+    border-color: #da302f;
+}
+.hidden {
+    display: none !important;
+}
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.btn-primary {
+    background-color: #da302f;
+    border-color: #da302f;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #b02525;
+    border-color: #b02525;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(218,48,47,0.3);
+}
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+.section-title h2:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #da302f;
+}
+.feature-box {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.icon-large {
+    font-size: 3rem;
+    color: #da302f;
+    margin-bottom: 20px;
+}
+.footer-dark {
+    background-color: #050909;
+    color: white;
+}
+.footer-dark a {
+    color: white;
+    text-decoration: none;
+}
+.footer-dark a:hover {
+    text-decoration: underline;
+}
+
+/* Override demo colors to logo colors */
+.btn-base-color {
+    background-color: #da302f !important;
+    border-color: #da302f !important;
+}
+
+.btn-base-color:hover {
+    background-color: #b02525 !important;
+    border-color: #b02525 !important;
+}
+
+.text-base-color {
+    color: #da302f !important;
+}
+
+.bg-base-color {
+    background-color: #da302f !important;
+}
+
+.bg-gradient-sherpa-blue-black {
+    background: linear-gradient(135deg, #da302f 30%, #050909 100%) !important;
+}
+
+.bg-dark-slate-blue {
+    background-color: #050909 !important;
+}
+
+.bg-solitude-blue {
+    background-color: #fceaea !important;
+}
+
+.bg-gradient-solitude-blue-transparent {
+    background: linear-gradient(135deg, #fceaea 0%, rgba(252, 234, 234, 0.8) 100%) !important;
+}
+
+/* Change card backgrounds to logo color */
+.card {
+    background-color: #da302f !important;
+    color: white !important;
+}
+
+.accordion-item {
+    background-color: #fceaea !important;
+}
